@@ -59,7 +59,7 @@ body {
 .main-section {
   padding: 100px 0px 175px 0px;
 }
-h2
+h2,h5
 {
    font-family: "Dancing Script", cursive;
 }
@@ -68,9 +68,9 @@ h1 {
   font-family: "Dancing Script", cursive;
   font-size: 60px;
 }
-p {
+p{
   font-size: 15px;
-  opacity: 0.9;
+  opacity: 0.7;
 }
 .btn
 {
@@ -115,6 +115,11 @@ svg:hover
 {
   background: #222831;
     border-radius: 0.4rem;
+    display: grid;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin: 1rem;
+    justify-content: center;
 
   h5{
      font-family: "Dancing Script", cursive;
@@ -147,7 +152,19 @@ svg:hover
   
   transform: scale(1.1);
 }
-
+.cards
+{
+  display: grid;
+  flex-wrap: wrap;
+}
+.card
+{
+  width: 350px;
+  height: 400px;
+  margin: 1.5rem;
+  
+ 
+}
 
 
 
@@ -171,5 +188,6 @@ svg:hover
   .nav-svg {
     display: none;
   }
+  
 
 }
