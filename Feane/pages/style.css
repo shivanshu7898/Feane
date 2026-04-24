@@ -39,9 +39,6 @@ body {
   padding: 0;
   font-family: sans-serif;
   color: var(--white);
-
- 
-  
 }
 
 .hero-section {
@@ -51,143 +48,108 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-   
-  
 }
-
 
 .main-section {
   padding: 100px 0px 175px 0px;
 }
-h2,h5
-{
-   font-family: "Dancing Script", cursive;
+h2,
+h5 {
+  font-family: "Dancing Script", cursive;
 }
 h1 {
-  
   font-family: "Dancing Script", cursive;
   font-size: 60px;
 }
-p{
+p {
   font-size: 15px;
   opacity: 0.7;
 }
-.btn
-{
+.btn {
   color: var(--white);
   font-size: 13px;
   flex-shrink: 1;
 }
-.btn:hover{
-
+.btn:hover {
   color: var(--yellow);
 }
-button
-{
+button {
   font-size: 15px;
   color: var(--white);
   border: none;
   background: var(--yellow);
-  
 }
-button:hover
-{
+button:hover {
   background: var(--yellow);
   opacity: 0.8;
 }
-svg
-{
-  color:var(--white);
+svg {
+  color: var(--white);
 }
 
-svg:hover
-{
+svg:hover {
   color: var(--yellow);
 }
-.oderbutton
-{
+.oderbutton {
   height: 2rem;
   width: 10rem;
   padding: 0.4rem;
   border-radius: 15px;
 }
-.box 
-{
+.box {
   background: #222831;
-    border-radius: 0.4rem;
-    display: grid;
-    flex-wrap: wrap;
-    padding: 1rem;
-    margin: 1rem;
-    justify-content: center;
+  border-radius: 0.4rem;
+  display: grid;
+  flex-wrap: wrap;
+  padding: 1rem;
+  margin: 1rem;
+  justify-content: center;
 
-  h5{
-     font-family: "Dancing Script", cursive;
-     font-weight: 700;
-     font-size: 1.5rem;
-     
+  h5 {
+    font-family: "Dancing Script", cursive;
+    font-weight: 700;
+    font-size: 1.5rem;
   }
-  h6{
-     font-family: "Dancing Script", cursive;
-     font-weight: 700;
-     font-size: 2.5rem;
+  h6 {
+    font-family: "Dancing Script", cursive;
+    font-weight: 700;
+    font-size: 2.5rem;
   }
-
-
-
 }
-.img-box
-{
+.img-box {
   width: 170px;
   border-radius: 50%;
   border: 5px solid var(--yellow);
   margin-right: 1rem;
 }
 
-.img-box img{
+.img-box img {
   width: 160px;
   border-radius: 50%;
 }
-.img-box img:hover{
-  
+.img-box img:hover {
   transform: scale(1.1);
 }
-.cards
-{
+.cards {
   display: grid;
   flex-wrap: wrap;
 }
-.card
-{
+.card {
   width: 350px;
   height: 400px;
   margin: 1.5rem;
-  
- 
 }
-
-
-
-
-
-
-
-
-
-
-
-
+.buggercut {
+  width: 440px;
+}
 
 @media screen and (max-width: 1080px) {
   .btn {
     display: none;
   }
-  
 }
 @media screen and (max-width: 480px) {
   .nav-svg {
     display: none;
   }
-  
-
 }
