@@ -38,7 +38,10 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  color: white;
+  color: var(--white);
+
+ 
+  
 }
 
 .hero-section {
@@ -101,6 +104,63 @@ svg:hover
 {
   color: var(--yellow);
 }
+.oderbutton
+{
+  height: 2rem;
+  width: 10rem;
+  padding: 0.4rem;
+  border-radius: 15px;
+}
+.box 
+{
+  background: #222831;
+    border-radius: 0.4rem;
+
+  h5{
+     font-family: "Dancing Script", cursive;
+     font-weight: 700;
+     font-size: 1.5rem;
+     
+  }
+  h6{
+     font-family: "Dancing Script", cursive;
+     font-weight: 700;
+     font-size: 2.5rem;
+  }
+
+
+
+}
+.img-box
+{
+  width: 170px;
+  border-radius: 50%;
+  border: 5px solid var(--yellow);
+  margin-right: 1rem;
+}
+
+.img-box img{
+  width: 160px;
+  border-radius: 50%;
+}
+.img-box img:hover{
+  
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 1080px) {
   .btn {
     display: none;
