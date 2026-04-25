@@ -75,7 +75,7 @@ p {
 .btn {
   color: var(--white);
   font-size: 13px;
-  flex-shrink: 1;
+  
 }
 .btn:hover {
   color: var(--yellow);
@@ -89,6 +89,13 @@ button {
 button:hover {
   background: var(--yellow);
   opacity: 0.8;
+}
+.nav-option
+{
+  display: flex;
+  align-items: center;
+
+ 
 }
 svg {
   color: var(--white);
@@ -146,6 +153,12 @@ svg:hover {
   height: 400px;
   margin: 1.5rem;
 }
+
+.card-img img:hover
+{
+  transition: 0.3s linear;
+  transform: scale(1.1);
+}
 .buggercut {
   width: 420px;
 }
@@ -161,13 +174,16 @@ img {
   width: 100px;
 }
 
-@media screen and (max-width: 1080px) {
-  .btn {
+@media screen and (max-width: 760px) {
+  .nav-svg {
     display: none;
   }
 }
 @media screen and (max-width: 480px) {
-  .nav-svg {
+  
+  .order
+  {
+
     display: none;
   }
   input{
