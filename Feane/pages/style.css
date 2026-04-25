@@ -56,10 +56,17 @@ body {
 h2,
 h5 {
   font-family: "Dancing Script", cursive;
+  font-weight: 700;
 }
 h1 {
   font-family: "Dancing Script", cursive;
   font-size: 60px;
+}
+
+h4 {
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  color: var(--dark);
 }
 p {
   font-size: 15px;
@@ -141,6 +148,15 @@ svg:hover {
 }
 .buggercut {
   width: 440px;
+}
+
+input {
+  margin: 1rem 0 1rem 0;
+  padding: 0.8rem;
+}
+
+img {
+  width: 100px;
 }
 
 @media screen and (max-width: 1080px) {
