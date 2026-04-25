@@ -147,12 +147,14 @@ svg:hover {
   margin: 1.5rem;
 }
 .buggercut {
-  width: 440px;
+  width: 420px;
 }
 
 input {
-  margin: 1rem 0 1rem 0;
+  margin: 1rem 1rem;
   padding: 0.8rem;
+  width: 80%;
+
 }
 
 img {
@@ -167,5 +169,8 @@ img {
 @media screen and (max-width: 480px) {
   .nav-svg {
     display: none;
+  }
+  input{
+    width: 70%;
   }
 }
